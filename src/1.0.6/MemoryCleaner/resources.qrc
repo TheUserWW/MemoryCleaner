@@ -1,0 +1,7 @@
+<RCC/>
+<qresource prefix="/translations">
+    <file>MemoryCleaner_en_US.qm</file>
+    <file>MemoryCleaner_fr_FR.qm</file>
+    <file>MemoryCleaner_ru_RU.qm</file>
+    <file>MemoryCleaner_zh_CN.qm</file>
+</qresource>

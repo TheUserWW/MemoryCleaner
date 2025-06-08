@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ja_JP">
+<context>
+    <name>MainWindow</name>
+
+    <message>
+        <source>关于</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>帮助</source>
+        <translation>ヘルプ</translation>
+    </message>
+    <message>
+        <source>内存状态</source>
+        <translation>メモリ状態</translation>
+    </message>
+    <message>
+        <source>物理内存:</source>
+        <translation>物理メモリ:</translation>
+    </message>
+    <message>
+        <source>虚拟内存:</source>
+        <translation>仮想メモリ:</translation>
+    </message>
+    <message>
+        <source>系统工作集:</source>
+        <translation>システムワーキングセット:</translation>
+    </message>
+    <message>
+        <source>清理选项</source>
+        <translation>クリーンオプション</translation>
+    </message>
+    <message>
+        <source>工作集</source>
+        <translation>ワーキングセット</translation>
+    </message>
+    <message>
+        <source>系统工作集</source>
+        <translation>システムワーキングセット</translation>
+    </message>
+    <message>
+        <source>备用列表</source>
+        <translation>スタンバイリスト</translation>
+    </message>
+    <message>
+        <source>低优先级备用列表</source>
+        <translation>低優先度スタンバイリスト</translation>
+    </message>
+    <message>
+        <source>修改页面列表</source>
+        <translation>変更ページリスト</translation>
+    </message>
+    <message>
+        <source>组合页面列表</source>
+        <translation>結合ページリスト</translation>
+    </message>
+    <message>
+        <source>控制</source>
+        <translation>コントロール</translation>
+    </message>
+    <message>
+        <source>立即清理</source>
+        <translation>今すぐクリーン</translation>
+    </message>
+    <message>
+        <source>自动清理</source>
+        <translation>自動クリーン</translation>
+    </message>
+    <message>
+        <source>间隔(秒):</source>
+        <translation>間隔(秒):</translation>
+    </message>
+    <message>
+        <source>作者主页</source>
+        <translation>作者ホームページ</translation>
+    </message>
+    <message>
+        <source>显示窗口</source>
+        <translation>ウィンドウを表示</translation>
+    </message>
+    <message>
+        <source>退出</source>
+        <translation>終了</translation>
+    </message>
+    <message>
+        <source>语言</source>
+        <translation>言語</translation>
+    </message>
+    <message>
+        <source>清理内存区域</source>
+        <translation>メモリ領域をクリーン</translation>
+    </message>
+    <message>
+        <source>托盘菜单</source>
+        <translation>トレイメニュー</translation>
+    </message>
+    <message>
+        <source>[%1] 已清理内存: %2 MB</source>
+        <translation>[%1] メモリクリーン済み: %2 MB</translation>
+    </message>
+    <message>
+        <source>工作集清理成功</source>
+        <translation>ワーキングセットクリーン成功</translation>
+    </message>
+    <message>
+        <source>清理工作集失败</source>
+        <translation>ワーキングセットクリーン失敗</translation>
+    </message>
+    <message>
+        <source>系统工作集清理成功</source>
+        <translation>システムワーキングセットクリーン成功</translation>
+    </message>
+    <message>
+        <source>清理系统工作集失败</source>
+        <translation>システムワーキングセットクリーン失敗</translation>
+    </message>
+    <message>
+        <source>备用列表清理完成</source>
+        <translation>スタンバイリストクリーン完了</translation>
+    </message>
+    <message>
+        <source>低优先级备用列表清理完成</source>
+        <translation>低優先度スタンバイリストクリーン完了</translation>
+    </message>
+    <message>
+        <source>修改页面列表清理完成</source>
+        <translation>変更ページリストクリーン完了</translation>
+    </message>
+    <message>
+        <source>组合页面列表清理完成</source>
+        <translation>結合ページリストクリーン完了</translation>
+    </message>
+    <message>
+        <source>正在清理内存...</source>
+        <translation>メモリをクリーン中...</translation>
+    </message>
+    <message>
+        <source>Memory Status:\nPhysical Memory: %1/%2 GB (%3%)\nVirtual Memory: %4/%5 GB\nSystem Working Set: %6/%7 GB</source>
+        <translation>メモリ状態:\n物理メモリ: %1/%2 GB (%3%)\n仮想メモリ: %4/%5 GB\nシステムワーキングセット: %6/%7 GB</translation>
+    </message>
+    <message>
+        <source>清理系统工作集失败，可能需要管理员权限</source>
+        <translation>システムワーキングセットクリーン失敗、管理者権限が必要かもしれません</translation>
+    </message>
+</context>
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>关于 MemoryCleaner</source>
+        <translation>MemoryCleaner について</translation>
+    </message>
+    <message>
+        <source>版本 1.0.4</source>
+        <translation>バージョン 1.0.4</translation>
+    </message>
+    <message>
+        <source>本程序遵循 GPL 3.0 开源协议</source>
+        <translation>このプログラムは GPL 3.0 オープンソースライセンスに準拠しています</translation>
+    </message>
+    <message>
+        <source>内存图表</source>
+        <translation>メモリチャート</translation>
+    </message>
+</context>
+<context>
+    <name>QSystemTrayIcon</name>
+    <message>
+        <source>警告</source>
+        <translation>警告</translation>
+    </message>
+</context>
+</TS>
