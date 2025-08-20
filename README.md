@@ -1,8 +1,9 @@
 # MemoryCleaner
 ## This powerful software allows you Clean you memor
 内存清理工具是一款用于优化Windows系统内存使用的实用程序。它可以清理各种类型的内存区域，包括工作集、备用列表等，帮助提高系统性能。
-[Clike here to download](https://github.com/TheUserWW/MemoryCleaner/releases)
-[点击此处下载](https://github.com/TheUserWW/MemoryCleaner/releases)
+
+DownLoad Link (Softpedia): https://www.softpedia.com/get/Tweak/Memory-Tweak/theuserww-MemoryCleaner.shtml
+
 ## 功能特点
 - 清理多种内存区域：
   - 工作集(Working Set)
