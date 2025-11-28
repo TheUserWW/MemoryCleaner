@@ -1,3 +1,6 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg?logo=paypal)](https://paypal.me/TheUserWW)
+
 # MemoryCleaner
 ## This powerful software allows you Clean you memor
 Memory cleaning tool is a practical utility for optimizing the memory usage of Windows systems. It can clean various types of memory areas, including working sets, standby lists, etc., to help improve system performance.
