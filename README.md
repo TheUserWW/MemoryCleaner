@@ -1,5 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg?logo=paypal)](https://paypal.me/TheUserWW)
+[![GitHub all releases](https://img.shields.io/github/downloads/TheUserWW/MemoryCleaner/total?logo=github&label=Downloads)](https://github.com/TheUserWW/MemoryCleaner/releases)
 
 # MemoryCleaner
 ## This powerful software allows you Clean you memor
