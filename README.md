@@ -1,5 +1,5 @@
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-gray.svg?style=flat)](LICENSE)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-orange.svg?style=flat)](LICENSE)
 [![PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg?logo=paypal)](https://paypal.me/TheUserWW)
 [![GitHub all releases](https://img.shields.io/github/downloads/TheUserWW/MemoryCleaner/total?logo=github&label=Downloads)](https://github.com/TheUserWW/MemoryCleaner/releases)
 
