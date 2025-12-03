@@ -6,6 +6,8 @@
 # MemoryCleaner
 
 ## This powerful software allows you Clean your memory
+<img width="272" height="399" alt="image" src="https://github.com/user-attachments/assets/29a3d13e-1634-4bbe-8e38-8e37ff809979" />
+
 
 Memory cleaning tool is a practical utility for optimizing the memory usage of Windows systems. It can clean various types of memory areas, including working sets, standby lists, etc., to help improve system performance.
 
