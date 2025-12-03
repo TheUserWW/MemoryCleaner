@@ -26,7 +26,7 @@ Memory cleaning tool is a practical utility for optimizing the memory usage of W
 - Detailed cleaning records
 
 ## System Requirements
-- Windows 8/10/11 (32-bit or 64-bit)
+- Windows 8/10/11 (64-bit)
 
 
 ## Usage Instructions
