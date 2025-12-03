@@ -58,9 +58,6 @@ Memory cleaning tool is a practical utility for optimizing the memory usage of W
 ## Technical Support
 If you have any questions or suggestions, please send them to the email address wcx1615471430@outlook.com
 
-这么精美的软件竟然是免费的！
-![DM_20250601190132_001](https://github.com/user-attachments/assets/a908c5fc-844d-41d1-bb04-3880095435d6)
-
 
 
 > 提示: 程序会自动保存您的设置，下次启动时会恢复之前的配置。
