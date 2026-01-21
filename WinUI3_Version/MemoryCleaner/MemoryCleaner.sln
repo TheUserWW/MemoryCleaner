@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemoryCleaner", "MemoryCleaner\MemoryCleaner.vcxproj", "{74EF283B-C493-406E-A977-B0D9B4A907BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74EF283B-C493-406E-A977-B0D9B4A907BC}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{74EF283B-C493-406E-A977-B0D9B4A907BC}.Debug|ARM64.Build.0 = Debug|ARM64
+		{74EF283B-C493-406E-A977-B0D9B4A907BC}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{74EF283B-C493-406E-A977-B0D9B4A907BC}.Debug|x64.ActiveCfg = Debug|x64
+		{74EF283B-C493-406E-A977-B0D9B4A907BC}.Debug|x64.Build.0 = Debug|x64
+		{74EF283B-C493-406E-A977-B0D9B4A907BC}.Debug|x64.Deploy.0 = Debug|x64
+		{74EF283B-C493-406E-A977-B0D9B4A907BC}.Debug|x86.ActiveCfg = Debug|Win32
+		{74EF283B-C493-406E-A977-B0D9B4A907BC}.Debug|x86.Build.0 = Debug|Win32
+		{74EF283B-C493-406E-A977-B0D9B4A907BC}.Debug|x86.Deploy.0 = Debug|Win32
+		{74EF283B-C493-406E-A977-B0D9B4A907BC}.Release|ARM64.ActiveCfg = Release|ARM64
+		{74EF283B-C493-406E-A977-B0D9B4A907BC}.Release|ARM64.Build.0 = Release|ARM64
+		{74EF283B-C493-406E-A977-B0D9B4A907BC}.Release|ARM64.Deploy.0 = Release|ARM64
+		{74EF283B-C493-406E-A977-B0D9B4A907BC}.Release|x64.ActiveCfg = Release|x64
+		{74EF283B-C493-406E-A977-B0D9B4A907BC}.Release|x64.Build.0 = Release|x64
+		{74EF283B-C493-406E-A977-B0D9B4A907BC}.Release|x64.Deploy.0 = Release|x64
+		{74EF283B-C493-406E-A977-B0D9B4A907BC}.Release|x86.ActiveCfg = Release|Win32
+		{74EF283B-C493-406E-A977-B0D9B4A907BC}.Release|x86.Build.0 = Release|Win32
+		{74EF283B-C493-406E-A977-B0D9B4A907BC}.Release|x86.Deploy.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B286E30-56EB-4694-9FB2-305A95FD29A2}
+	EndGlobalSection
+EndGlobal

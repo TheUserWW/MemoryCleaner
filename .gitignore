@@ -1,0 +1,53 @@
+# Qt build files
+build/
+*.o
+*.obj
+*.exe
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Qt Creator
+*.pro.user
+*.autosave
+
+# Qt MOC
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# Qt translations
+*.qm
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.log
+*.stackdump
+
+# Debug files
+*.pdb
+*.ilk
+
+# MinGW
+*.stackdump

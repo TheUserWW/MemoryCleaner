@@ -1,0 +1,9 @@
+
+namespace MemoryCleaner
+{
+    [default_interface]
+    runtimeclass AboutDialog : Microsoft.UI.Xaml.Window
+    {
+        AboutDialog();
+    }
+}
