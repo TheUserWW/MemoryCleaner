@@ -424,7 +424,7 @@ void MainWindow::on_btnCleanNow_clicked()
     memAfter.dwLength = sizeof(MEMORYSTATUSEX);
     GlobalMemoryStatusEx(&memAfter);
 
-    double cleaned = (memAfter.ullAvailPhys - memBefore.ullAvailPhys) / (1024.0 * 1024);
+    double cleaned = ((long long)memAfter.ullAvailPhys - (long long)memBefore.ullAvailPhys) / (1024.0 * 1024);
     ui->textBrowser->append(tr("[%1] 已清理内存: %2 MB")
                                 .arg(QDateTime::currentDateTime().toString("hh:mm:ss"))
                                 .arg(cleaned, 0, 'f', 1));
@@ -791,16 +791,14 @@ void MainWindow::setAutoStart(bool enable)
     LPCWSTR keyPath = L"SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run";
     LPCWSTR appName = L"MemoryCleaner";
     
-    // 获取应用程序的完整路径
+
     wchar_t exePath[MAX_PATH];
     GetModuleFileNameW(NULL, exePath, MAX_PATH);
     
     if (RegOpenKeyExW(HKEY_CURRENT_USER, keyPath, 0, KEY_WRITE, &hKey) == ERROR_SUCCESS) {
         if (enable) {
-            // 添加开机自启动
             RegSetValueExW(hKey, appName, 0, REG_SZ, (BYTE*)exePath, (wcslen(exePath) + 1) * sizeof(wchar_t));
         } else {
-            // 删除开机自启动
             RegDeleteValueW(hKey, appName);
         }
         RegCloseKey(hKey);
@@ -810,7 +808,7 @@ void MainWindow::setAutoStart(bool enable)
     ui->actionAutoStart->setChecked(enable);
 }
 
-// 检查是否已设置开机自启动
+
 bool MainWindow::isAutoStartEnabled()
 {
     HKEY hKey;
@@ -849,13 +847,13 @@ void MainWindow::onEnableMessageTriggered()
     bool enabled = ui->actionEnableMessage->isChecked();
     enableMessage = enabled;
     
-    // 保存设置
+
     QString iniPath = QCoreApplication::applicationDirPath() + "/settings.ini";
     QSettings settings(iniPath, QSettings::IniFormat);
     settings.setValue("enableMessage", enabled);
     settings.sync();
     
-    // 显示提示消息（仅在开启通知时显示）
+
     if (enabled) {
         QString message = enabled ? tr("已开启通知消息") : tr("已关闭通知消息");
         trayIcon->showMessage("MemoryCleaner", message, QSystemTrayIcon::Information, 2000);
